@@ -87,7 +87,7 @@ let pvr = [
     },
     {
         pvr: 'PVR Vegus',
-        movie: 'Salaar',
+        movie: 'Jawan',
         loc: 'Dwarka Sector 14 , New Delhi',
         audi: 1,
         type: '4DX',
@@ -104,9 +104,9 @@ let pvr = [
         a: [18,10],
         price: [ 800, 800, 560, 560, 560, 560, 430, 430 ],
         date: 25,
-        img: 'img/_SALAAR_ 💥.jpeg',
-        video: 'video/Salaar Trailer.mp4',
-        background: 'img/salaar\ poster.webp',
+        img: 'img/jawan.jpg',
+        video: 'video/Jawan Official Trailer-(HDvideo9).mp4',
+        background: 'img/bg.png',
     },
     {
         pvr: 'PVR Vegus',
@@ -190,7 +190,7 @@ let addSeats = (arr) => {
                 }
                 let len = Array.from(document.getElementsByClassName('selected')).length;
                 if (len > 0) {
-                    document.getElementById('book_ticket').style.display =;
+                    document.getElementById('book_ticket').style.display = 'unset';
                 } else {
                     document.getElementById('book_ticket').style.display = 'none';
                 }
